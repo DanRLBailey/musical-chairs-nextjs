@@ -1,7 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { HomePage } from "./pages/homePage/homePage";
+import { SongPage } from "./pages/songPage/songPage";
 
 export default function Home() {
+  return <SongPage />;
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
